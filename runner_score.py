@@ -1,0 +1,6 @@
+n = int(input())
+arr = map(int, input().split())
+    
+unique_scores = list(set(arr))
+unique_scores.sort()
+print(unique_scores[-2])
